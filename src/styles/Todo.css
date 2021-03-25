@@ -1,0 +1,27 @@
+.todo {
+    text-align: left;
+    border-left: 3px solid coral;
+    margin-right: 50px;
+    /* border-radius: 12px; */
+    margin-bottom: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.todo__text {
+    margin: 0;
+    padding-top: 5px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.todo:hover {
+    background-color: lightgrey;
+}
+
+.todo__timestamp {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 11px;
+    margin-left: 20px;
+}
