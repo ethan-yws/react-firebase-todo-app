@@ -10,8 +10,6 @@
 *** github_username, repo_name, twitter_handle, email, project_title, project_description
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -36,28 +34,26 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <!-- no need atm -->
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+<p align="center">
+  <img src="images/screenshot.png">
+  <img src="images/screenshot2.png">
+</p>
 
 ### Built With
 
-* Material-UI
-* Moment.js
-* Firebase
-
-
+-   Material-UI
+-   Moment.js
+-   Firebase
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### `npm start`
@@ -71,27 +67,26 @@ You will also see any lint errors in the console.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install @material-ui/core
-  npm install moment --save
-  npm i firebase
-  ```
+
+-   npm
+    ```sh
+    npm install @material-ui/core
+    npm install moment --save
+    npm i firebase
+    ```
 
 <!-- USAGE EXAMPLES -->
 
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- ACKNOWLEDGEMENTS -->
