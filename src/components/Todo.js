@@ -1,4 +1,3 @@
-import { Button } from "@material-ui/core";
 import React from "react";
 import "../styles/Todo.css";
 import db from "../firebase";
