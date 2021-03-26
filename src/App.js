@@ -1,18 +1,41 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Todo from "./components/Todo";
 import Button from "@material-ui/core/Button";
 import { FormControl, Input, InputLabel, TextField } from "@material-ui/core";
 import moment from "moment";
+import db from "./firebase";
+import firebase from "firebase";
 
 function App() {
     const [todos, setTodos] = useState([]);
     const [input, setInput] = useState("");
     const [due, setDue] = useState(moment().format("YYYY-MM-DD"));
 
+    // fetch todo items from firebase and update the database as item added/removed
+    useEffect(() => {
+        db.collection("todos")
+            .orderBy("timestamp", "desc")
+            .onSnapshot((snapshot) => {
+                setTodos(
+                    snapshot.docs.map((doc) => ({
+                        id: doc.id,
+                        todo: doc.data().todo,
+                    }))
+                );
+            });
+    }, []);
+
     const addTodo = (e) => {
         e.preventDefault(); // stop the refresh
-        setTodos([...todos, { input: input, due: due }]);
+        // setTodos([...todos, { input: input, due: due }]);
+        db.collection("todos").add({
+            todo: {
+                input: input,
+                due: due,
+            },
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+        });
         setInput("");
         setDue(moment().format("YYYY-MM-DD"));
     };
@@ -65,7 +88,7 @@ function App() {
             {/* Todo Display Section */}
             <ul>
                 {todos.map((todo) => (
-                    <Todo text={todo.input} due={todo.due} />
+                    <Todo todo={todo} />
                 ))}
             </ul>
         </div>

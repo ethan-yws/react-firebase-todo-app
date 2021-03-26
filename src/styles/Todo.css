@@ -1,7 +1,8 @@
 .todo {
+    flex: 0.9;
     text-align: left;
     border-left: 3px solid coral;
-    margin-right: 50px;
+
     /* border-radius: 12px; */
     margin-bottom: 10px;
     background-color: rgb(240, 240, 240);
@@ -24,4 +25,26 @@
     padding-bottom: 5px;
     font-size: 11px;
     margin-left: 20px;
+}
+
+.todo__slot {
+    display: flex;
+    margin-right: 50px;
+}
+
+.delete__button {
+    flex: 0.1;
+}
+
+.del__btn {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+}
+
+.del__btn:hover {
+    background-color: lightcoral;
+    cursor: pointer;
 }
