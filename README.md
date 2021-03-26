@@ -53,9 +53,9 @@
 
 ### Built With
 
-* []()
-* []()
-* []()
+* Material-UI
+* Moment.js
+* Firebase
 
 
 
@@ -77,7 +77,7 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install @material-ui/core
   npm install moment --save
-  npm install moment --save
+  npm i firebase
   ```
 
 <!-- USAGE EXAMPLES -->
