@@ -30,8 +30,6 @@
   <p align="center">
     A todo app powered by React and Firebase
     <br />
-    <br />
-    <br />
     <a href="https://react-firebase-todo-app-b165b.web.app/">View Demo</a>
     ·
     <a href="mailto:ethanshi0725@gmail.com">Report Bug</a>
