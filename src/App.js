@@ -42,13 +42,13 @@ function App() {
 
     return (
         <div className="App">
-            <h1>React Firebase Todo App 🚀</h1>
+            <h2>👋 Hi, You have {todos.length} tasks</h2>
             {/* User Input Section */}
             <form>
                 <FormControl>
                     <div className="user__input">
                         <div className="task_entry">
-                            <InputLabel>👋 Write your task</InputLabel>
+                            <InputLabel>Write your task</InputLabel>
                             <Input
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
