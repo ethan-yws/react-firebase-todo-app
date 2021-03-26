@@ -42,8 +42,8 @@
 ## About The Project
 
 <p align="center">
-  <img src="images/screenshot.png">
-  <img src="images/screenshot2.png">
+  <img width="730" height="920" src="images/screenshot.png">
+  <img width="730" height="920" src="images/screenshot2.png">
 </p>
 
 ### Built With
