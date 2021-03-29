@@ -26,7 +26,7 @@
   <h3 align="center">React Firebase Todo App</h3>
 
   <p align="center">
-    A todo app powered by React and Firebase
+    A full CRUD Todo App powered by React and Firebase
     <br />
     <a href="https://react-firebase-todo-app-b165b.web.app/">View Demo</a>
     ·
@@ -44,6 +44,7 @@
 <p align="center">
   <img width="400" height="503" src="images/screenshot.png">
   <img width="400" height="503" src="images/screenshot2.png">
+  <img width="400" height="482" src="images/screenshot3.png">
 </p>
 
 ### Built With
