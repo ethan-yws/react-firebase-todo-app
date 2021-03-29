@@ -1,5 +1,5 @@
 .todo {
-    flex: 0.9;
+    flex: 0.8;
     text-align: left;
     border-left: 3px solid coral;
 
@@ -47,4 +47,17 @@
 .del__btn:hover {
     background-color: lightcoral;
     cursor: pointer;
+}
+
+.edit__button {
+    flex: 0.1;
+}
+
+.edit__btn {
+    margin-top: 12px;
+    margin-left: 5px;
+    text-align: center;
+    /* margin-top: 8px; */
+    /* border: 1px solid black; */
+    /* padding: 16px 10px 10px 10px; */
 }
